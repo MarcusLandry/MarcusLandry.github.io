@@ -1,20 +1,32 @@
 html {
     font-family: sans-serif;
-    color: whitesmoke;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 35vh;
-    margin: 0;
-    background-color: #FFC107;
+:root {
+    --base-color: #FFC107;
 }
 
-.styled-box {
+div{
     width: 200px;
     height: 200px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 1.125rem;
+
+    background-color: var(--base-color);
     
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+
+    border-radius: 10px;
+
+    border: 1px solid darken(var(--base-color), 10%);
+
+    position: relative;
+    overflow: hidden;
+
 }

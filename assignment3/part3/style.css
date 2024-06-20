@@ -50,3 +50,46 @@ header, footer {
 }
 
   /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('robotoslabregular-w1ge3.woff2') format('woff2'),
+        url('robotoslabregular-w1ge3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifbold';
+    src: url('droidserifbold-ampe.woff2') format('woff2'),
+        url('droidserifbold-ampe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'roboto_slabregular', serif;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'droid_serifbold', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-indent: 20px;
+}

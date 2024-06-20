@@ -17,14 +17,6 @@ img {
     display: block;
 }
 
-article {
-    grid-column: 1 / 2;
-}
-
-aside {
-    grid-column: 2 / 3;
-}
-
 .logo {
     font-size: 200%;
     padding: 50px 20px;

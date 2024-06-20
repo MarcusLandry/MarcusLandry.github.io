@@ -73,6 +73,28 @@ body {
     line-height: 1.6;
 }
 
+nav {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
 h1, h2 {
     font-family: 'droid_serifbold', sans-serif;
     letter-spacing: 1px;
@@ -92,4 +114,67 @@ p {
     letter-spacing: 0.5px;
     word-spacing: 1px;
     text-indent: 20px;
+}
+
+ul, ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul li, ol li {
+    line-height: 1.6;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    list-style-type: symbols(+);
+}
+
+a {
+    color: #a66;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a66;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #333;
+}
+
+a:active {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+a[target="blank_"] {
+    position: relative;
+    padding-right: 16px;
+}
+
+a[target="_blank"]::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: 
+    url('C:\Users\jojo_\Documents\GitHub\INFT1206\MarcusLandry.github.io\assignment3\part3\external-link-52.png');
+    background-size: cover;
 }

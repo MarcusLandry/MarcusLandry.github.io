@@ -49,8 +49,6 @@ header, footer {
     border-bottom: 5px solid #a66;
 }
 
-  /* WRITE YOUR CODE BELOW HERE */
-
 @font-face {
     font-family: 'roboto_slabregular';
     src: url('robotoslabregular-w1ge3.woff2') format('woff2'),
